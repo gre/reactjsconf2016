@@ -109,6 +109,13 @@ class Demo extends Component {
       <div>
         <div hidden={toggleMode}>
 
+        <div style={{ textAlign: "center", padding: 8, width }}>
+          {"Code: "}
+          <a style={{ color: "#000" }} href="https://github.com/gre/reactjsconf2016">
+            https://github.com/gre/reactjsconf2016
+          </a>
+        </div>
+
 
 <Surface ref={this.onRef} width={width} height={height} preload opaque={false} autoRedraw={videoMode}>
 
