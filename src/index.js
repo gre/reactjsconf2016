@@ -7,16 +7,16 @@ const GlReactInspector = require("gl-react-inspector");
 const { Surface } = require("gl-react-dom");
 const ImageTitle = require("./ImageTitle");
 
-const video = "/assets/video.mp4";
+const video = "./assets/video.mp4";
 
 const images = [
-  "/assets/2.jpg",
-  "/assets/5.jpg",
-  "/assets/1.jpg",
-  "/assets/6.jpg",
-  "/assets/3.jpg",
-  "/assets/4.jpg",
-  "/assets/7.jpg"
+  "./assets/2.jpg",
+  "./assets/5.jpg",
+  "./assets/1.jpg",
+  "./assets/6.jpg",
+  "./assets/3.jpg",
+  "./assets/4.jpg",
+  "./assets/7.jpg"
 ];
 
 const initialTitle =
